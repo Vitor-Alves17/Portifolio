@@ -1,0 +1,19 @@
+@import url('./variables.css');
+
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--neutral);
+    font-family: var(--work-sans);
+}
+main {
+    background-color: var(--background-color);
+}
