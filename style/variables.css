@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     /* colors: */
-    --primary-color: #BC3CD8, #C54B8C;
+    --primary-color: linear-gradient(45deg, #BC3CD8, #C54B8C);
     --neutral: #E3E4E6;
     --neutral-two: #E3E4E6;
     --background-color: #010208;
@@ -9,6 +9,8 @@
     /* fonts: */
 
     --work-sans: 'Work Sans', sans-serif;
+
+    /*font width*/
     --light: 300;
     --regular: 400;
     --medium: 500;
@@ -16,4 +18,7 @@
     --bold: 700;
     --extra-bold: 800;
     --black: 900;
+
+    /*font-size*/
+    --label: 14px
 }

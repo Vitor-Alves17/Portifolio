@@ -1,0 +1,55 @@
+@import url(variables.css);
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .links-wrapper {
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            font-weight: var(--semi-bold);
+            font-size: var(--label);
+            background: var(--neutral);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        a:hover {
+            font-weight: var(--semi-bold);
+            font-size: var(--label);
+            background: var(--primary-color);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+
+.card {
+    button {
+        border: 1px solid var(--neutral);
+        background-color: var(--background-color);
+        width: fit-content;
+        padding: 8px 18px;
+        border-radius: 10px;
+
+        p{
+            color: var(--neutral);
+        }
+        button:hover {
+            background-color: var(--primary-color);
+        }
+}
+}
+
