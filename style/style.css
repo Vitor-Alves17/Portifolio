@@ -81,6 +81,7 @@ h1 {
     img {
         width: 594px;
         height: 490px;
+        border-radius: 15px;
     }
     p {
         width: 70%;
