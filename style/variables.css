@@ -3,7 +3,7 @@
     /* colors: */
     --primary-color: linear-gradient(45deg, #BC3CD8, #C54B8C);
     --neutral: #E3E4E6;
-    --neutral-two: #E3E4E6;
+    --neutral-two: rgba(227, 228, 230, 0.55);
     --background-color: #010208;
 
     /* fonts: */
@@ -20,5 +20,15 @@
     --black: 900;
 
     /*font-size*/
-    --label: 14px
+    --heading-1: 56px;
+    --heading-2: 40px;
+    --heading-3: 32px;
+    --heading-4: 24px;
+    --heading-5: 16px;
+    --body-1: 18px;
+    --button: 16px;
+    --label: 14px;
+
+    /*font line-heigth*/
+    --line-heigth: 150%;
 }

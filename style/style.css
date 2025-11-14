@@ -7,16 +7,42 @@ body {
     flex-direction: column;
     align-items: center;
 }
+    img {
+        object-fit: cover;
+    }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 112px;
 
+    b {
+        color: var(--neutral-two);
+        font-weight: var(--light);
+    }
+}
 header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 23px 112px 24px 112px;
+
+    span {
+        background: var(--primary-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: var(--bold);
+        font-size: var(--heading-4);
+
+        b {
+            font-weight: var(--light);
+        }
+    }
 
     .links-wrapper {
-        width: 30%;
+
         display: flex;
-        justify-content: space-around;
+        gap: 32px;
 
         a {
             font-weight: var(--semi-bold);
@@ -35,21 +61,60 @@ header {
         }
     }
 }
+h1 {
+    font-size: var(--heading-1);
+    font-weight: var(--semi-bold);
 
+}
+.card-wrapper {
+    width: 100%;
+    border: 1px solid var(--neutral);
+    display: flex;
+    flex-direction: column;
+    gap: 32px 0;
+}
 .card {
-    button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0 32px;
+    img {
+        width: 594px;
+        height: 490px;
+    }
+    p {
+        width: 70%;
+        font-size: var(--heading-3);
+    }
+
+    a {
         border: 1px solid var(--neutral);
-        background-color: var(--background-color);
+        background: var(--background-color);
         width: fit-content;
         padding: 8px 18px;
-        border-radius: 10px;
+        border-radius: 20px;
+        color: var(--neutral);
 
-        p{
+
+    }
+        h6 {
             color: var(--neutral);
+            font-weight: var(--semi-bold);
+            font-size: var(--heading-5);
+            line-height: var(--line-heigth);
         }
-        button:hover {
-            background-color: var(--primary-color);
+        a:hover {
+            background: var(--primary-color);
         }
-}
-}
 
+}
+.text-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.inverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
