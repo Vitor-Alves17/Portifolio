@@ -25,7 +25,8 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 23px 112px 24px 112px;
+    margin: 23px 0 24px 0;
+    padding: 0 112px;
 
     span {
         background: var(--primary-color);
@@ -61,14 +62,21 @@ header {
         }
     }
 }
-h1 {
-    font-size: var(--heading-1);
-    font-weight: var(--semi-bold);
+.tittle {
+    display: flex;
+    justify-content: center;
+    padding: 220px 104px 316px;
+    width: 100%;
 
+    h1 {
+        width: 100%;
+        font-size: var(--heading-1);
+        font-weight: var(--semi-bold);
+        text-align: center;
+    }
 }
 .card-wrapper {
     width: 100%;
-    border: 1px solid var(--neutral);
     display: flex;
     flex-direction: column;
     gap: 32px 0;
@@ -79,7 +87,7 @@ h1 {
     flex-direction: row;
     gap: 0 32px;
     img {
-        width: 594px;
+        width: 50%;
         height: 490px;
         border-radius: 15px;
     }
@@ -118,4 +126,43 @@ h1 {
 .inverse{
     display: flex;
     flex-direction: row-reverse;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+
+    .text-about{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 16px 0;
+        h4 {
+            font-weight: var(--semi-bold);
+            font-size: var(--heading-4);
+            line-height: var(--line-heigth);
+
+        }
+        p {
+            font-size: var(--heading-3);
+            font-weight: var(--semi-bold);
+        }
+    }
+
+    .imgs-wrapper {
+        width: 50%;
+        height: 408px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
