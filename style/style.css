@@ -94,6 +94,8 @@ header {
     p {
         width: 70%;
         font-size: var(--heading-3);
+        line-height: var(--line-heigth);
+        margin: 16px 0 83px;
     }
 
     a {
@@ -132,6 +134,13 @@ header {
     display: flex;
     flex-direction: row;
     gap: 32px;
+    margin: 74px 0;
+
+    img {
+        width: 282px;
+        height: 408px;
+        border-radius: 16px;
+        }
 
     .text-about{
         width: 50%;
@@ -153,10 +162,16 @@ header {
     }
 
     .imgs-wrapper {
-        width: 50%;
-        height: 408px;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 32px;
+
+        .par {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
     }
 }
 
@@ -165,4 +180,29 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 60px;
+    padding: 80px 0 40px;
+
+    h4 {
+        font-weight: var(--semi-bold);
+        font-size: var(--heading-1);
+        line-height: var(--line-heigth);
+    }
+
+    p {
+        font-weight: var(--light);
+        font-size: var(--body-1);
+        line-height: var(--line-heigth);
+        text-align: center;
+    }
+
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .icons-wrapper {
+        display: flex;
+        gap: 56px;
+    }
 }
