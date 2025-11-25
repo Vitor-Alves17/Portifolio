@@ -234,7 +234,11 @@ footer {
         gap: 56px;
     }
 }
-
+@media (max-width: 380px) {
+    header {
+        gap: 10%;
+    }
+}
 @media (max-width: 450px) {
     header span {
         font-size: var(--label);
